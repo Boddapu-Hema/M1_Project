@@ -2,8 +2,6 @@
 #include<stdlib.h>
 #include<conio.h>
 #include<string.h>
-#include<Windows.h>
-#include"MainElectricityBill.h"
 
 void details()
 {
@@ -72,6 +70,6 @@ void Rural()
     }
     printf("****Electricity Bill****\n\n");
     printf("Name : %s\n", B.name);
-    printf("In Urban, your electricity bill is: %d\n", amount);
+    printf("In Rural, your electricity bill is: %d\n", amount);
     printf("Units you consumed per month: %d\n", B.unitsconsumed);
 }
